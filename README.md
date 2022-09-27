@@ -1,4 +1,4 @@
-# FT_PRINTF [[Sujet](https://github.com/tvarnier/42/blob/master/algorithm/ft_printf/subject.pdf)]
+# FT_PRINTF [[Sujet](https://github.com/tvarnier/ft_printf/subject.pdf)]
 
 <br>
 
@@ -17,7 +17,7 @@ Lancer la commande `make` pour compiler le projet.
 Puis modifiez les arguments de de la fonction ft_printf dans le fichier `main_test.c` et compilez le grâce à la commande `make test`.
 
 <div>
-  <img src="https://github.com/tvarnier/42/blob/master/algorithm/ft_printf/img/main_example.png" align="middle" width="75%">
+  <img src="https://github.com/tvarnier/ft_printf/blob/master/img/main_example.png" align="middle" width="75%">
 </div>
 
 <br>
