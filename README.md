@@ -16,11 +16,15 @@ Lancer la commande `make` pour compiler le projet.
 
 Puis modifiez les arguments de de la fonction ft_printf dans le fichier `main_test.c` et compilez le grâce à la commande `make test`.
 
-<div>
-  <img src="https://github.com/tvarnier/ft_printf/blob/master/img/main_example.png" align="middle" width="75%">
-</div>
+```c
+#include "includes/ft_printf.h"
 
-<br>
+int   main(void)
+{
+    ft_printf("Je suis un %s et je dois afficher %d\n", "test", 10);
+    return(0);
+}
+```
 
 Il vous suffit ensuite de lancer le programme `./test`.
 
@@ -59,11 +63,7 @@ Il vous suffit ensuite de lancer le programme `./test`.
 <br>
 
 * Gestion des modificateurs de longueur suivants : `j`, `h`, `hh`, `l`, `ll`, `L`, `z`
- 
-<br>
 
 * Gestion des flags suivants : `#`, `0`, `-`, `+`
- 
-<br>
 
 * Gestion de la précision
